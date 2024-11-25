@@ -3,7 +3,7 @@ int h1 (int key)
     return key%10;
 }
 
-void inserirEndAberto (int key, int len)
+void addOpenAdd (int key, int len)
 {
     int count = h1(key);
     int pos = h1(key);
